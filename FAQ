@@ -1,0 +1,28 @@
+This is a non-exhaustive list of questions regarding our setup/workflow. 
+
+* Is the setup placed inside a fume hood?
+Our setup is placed inside a humidity-controlled room or inside a humidity-controlled plastic box, but not in a fume hood. 
+
+* Are all parts custom-made or commercially available? 
+We are lucky to have our own workshop at AMOLF, who designed and custom-built the device themselves. All parts that are not specified with a brand name were made in-house. To simplify the setup, it is possible to use a spincoater to spin the rotating chamber, or to repurpose the rotating element of a magnetic stirrer or CD reader; as was used in older prototypes in our lab/other labs.
+
+* Are there any alternative to using OptiPrep to increase the density? 
+We have successfully lowered the OptiPrep concentration in experiments encapsulating the PURE system to 5 % v/v (as compared to the ~20 % v/v we use as a default). Other commonly used options are to use dextran to increase the density (e.g. https://pubs.acs.org/doi/10.1021/acsnano.1c01669) or to use a sucrose/glucose density difference. 
+
+* How to avoid mixing the oil phase and the aqueous phase during the collection of the sample?
+We try to remove most of the oil phase before taking any of the aqueous phase, and we try to pipet very gently to avoid cross-over of oil in the aqueous phase. 
+
+* How often can the capillary be reused? 
+We have experienced that the capillary can have an adverse effect on experiments over time (even with rigorous cleaning; timescale is variable). It is probably wise to change it often to avoid any capillary-related problems as this is an easy adjustment to make.
+
+* Why did you use exactly 415ul decane or chloroform to dissolve the lipids, is it corresponding to a wanted ratio lipid/decane/oil? 
+For the composition of the lipid-in-oil mixtures, we based ourselves on previous publications and protocols we got from other labs (these papers in particular: Claudet 2016 DOI 10.1140/epje/i2016-16009-6 & Loiseau 2016 DOI 10.1126/sciadv.1500465).
+
+* You use only part of the final lipid-in-oil dispersion, is there a reason for it? 
+We indeed make a larger volume of lipid-in-oil mixture than the volume we use, but for no particular reason. We never tried using the more, but that could be an option, as long as it fits into your rotation chamber. There are probably many ways to tweak all of this, e.g. by changing concentration of lipids, volume fraction of decane, chamber design, volumes used, ...; this will all in some way change aggregate size and/or lipid adsorption. But we don't know to what extent and we have not explored this further.
+
+* Why did you take VeroClear as a material for the rotational chambers?
+This material is the default material for the 3D printer that was used, it is indeed smooth and (semi)transparent. Transparency is important to see the capillary/different fluid layers; and the smoothness might be important to prevent any disturbance. The chambers were used right from the printer and we didn't apply any finish or coating. We have never experimented with other materials/other designs, since we found this to work well. Before using these 3D printed chambers, we used small petri dishes that we glued shut and made a hole in the top, but we looked for a more durable solution. We clean the chambers using organic solvents (others use ethanol, we use isopropanol and ethanol), rinse with water and dry. Our main reasoning for using this particular material was that it was clear and chemically inert (the exact composition of this material is actually unknown).
+
+* Is it absolutely necessary to use a glovebox? 
+We always make use of a glovebox to prepare the lipid-in-oil mixtures and only with use of the glovebox we were able to get good results. The glovebox we use is also in another lab and we just wrap the vials with parafilm for transport between labs.
